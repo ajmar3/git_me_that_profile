@@ -1,32 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import './searchBox.css'
 
-function SearchBox() {
-
-    const [isLoaded, setIsLoaded] = useState(false)
-    const [name, setname] = useState("jbjbf")
-    const [gender, setgender] = useState("nkdnkd")
-
-    
-
-    useEffect(() => {
-        async function fetchData() {
-            const url = "https://api.github.com/users/ajmnz/repos";
-            const response = await fetch(url);
-            const data = await response.json();
-            //const results = data.results[0]
-            console.log(data)
-        }
-
-        fetchData();
-    }, [])
-
+function SearchBox(props) {
 
     return (
-        <div className="searchBox">
-            
-            {isLoaded ? <div>loaded...</div> : <div>loading...</div>}
-            <div>
-
+        <div className="searchBoxBackground">
+            <div className="searchBox">
+                <div className="header">
+                    Which profile can I <span className="git">git</span> for you?
+                </div>
+                <input className="userInput" onChange={props.handleChange} />
+                <button className="go" onClick={props.handleSubmit}>GO!</button>
             </div>
         </div>
     );

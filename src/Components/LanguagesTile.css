@@ -1,0 +1,18 @@
+/* .LanguagesTile1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+  background-color: aqua;
+} */
+
+.languageTile {
+  background-color: #9fb8ad;
+  width: 100%;
+  min-height: 10%;
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 5px 5px 10px #869b92;
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  max-height: auto;
+}
