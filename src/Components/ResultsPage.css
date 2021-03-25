@@ -1,10 +1,18 @@
 .resultsPage {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.resultsPageTiles {
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 5%;
+  column-gap: 50px;
   padding: 5%;
-  row-gap: 5%;
+  row-gap: 5px;
 }

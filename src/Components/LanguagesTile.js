@@ -23,7 +23,6 @@ function LanguagesTile(props) {
             const url = repo_url;
             const response = await fetch(url);
             const data = await response.json();
-            console.log(data)
             set_repo_info(data)
             setisfetching(false)
         }

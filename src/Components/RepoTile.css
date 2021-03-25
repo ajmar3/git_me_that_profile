@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@700&family=Share+Tech+Mono&display=swap");
+
+.repoTile {
+  display: flex;
+  background-color: #9fb8ad;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 5px 5px 10px #869b92;
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  justify-self: center;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.repoTileHeader {
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  font-size: 25px;
+  padding: 5%;
+}
+
+.repoList {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 3%;
+  padding-top: 1%;
+  height: 76%;
+}
+
+.repoDisplayTile {
+  height: 90%;
+  background-color: #a1cae2;
+  padding: 5%;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: 1fr 3fr;
+  transition: 0.3s;
+}
+
+.repoDisplayTile:hover {
+  box-shadow: 2px 2px 30px #aac5b9;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.repoTitle {
+  text-align: left;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  overflow: hidden;
+  color: #383e56;
+}
+
+.repoStars {
+  text-align: right;
+  font-size: 20;
+  color: #383e56;
+}
+
+.starIcon {
+  color: #ffcb91;
+  box-shadow: 5px #ffcb91;
+}
+
+.repoDes {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: left;
+  padding-top: 15px;
+  color: #383e56;
+}

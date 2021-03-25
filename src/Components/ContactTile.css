@@ -1,0 +1,72 @@
+.socialsTile {
+  background-color: #9fb8ad;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 5px 5px 10px #869b92;
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  justify-self: center;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.socialsTileTitle {
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  font-size: 25px;
+  padding: 5%;
+}
+.socialsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding: 3%;
+  column-gap: 2%;
+}
+
+.followers {
+  height: 90%;
+  background-color: #a1cae2;
+  padding: 5%;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  transition: 0.3s;
+}
+.following {
+  height: 90%;
+  background-color: #a1cae2;
+  padding: 5%;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  transition: 0.3s;
+}
+
+.email {
+  height: 90%;
+  background-color: #a1cae2;
+  padding: 5%;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.location {
+  height: 90%;
+  background-color: #a1cae2;
+  padding: 5%;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

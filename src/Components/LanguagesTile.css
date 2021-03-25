@@ -8,9 +8,8 @@
 .languageTile {
   display: flex;
   background-color: #9fb8ad;
-  min-height: 35vh;
-  height: 95%;
-  width: 100%;
+  height: 400px;
+  width: 400px;
   text-align: center;
   border-radius: 2%;
   box-shadow: 5px 5px 10px #869b92;
@@ -26,4 +25,8 @@
   color: #383e56;
   font-size: 25px;
   padding: 5%;
+}
+
+.doughnut {
+  justify-self: center;
 }

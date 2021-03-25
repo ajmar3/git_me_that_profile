@@ -5,33 +5,40 @@
   grid-column-start: 1;
   grid-column-end: 4;
   max-height: 40%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
 }
 
 .avatar {
-  max-width: 16%;
+  width: 300px;
+  height: 300px;
   border-radius: 20%;
-  margin-left: 42%;
   box-shadow: 5px 5px 10px #869b92;
   border: 5px solid #9fb8ad;
+  justify-self: center;
+  z-index: 20;
 }
 
 .name_bio {
   background-color: #9fb8ad;
-  width: 40%;
-  min-height: 10%;
-  margin-left: 30%;
-  margin-top: -5%;
-  text-align: center;
-  border-radius: 2%;
   box-shadow: 5px 5px 10px #869b92;
   font-family: Mulish, sans-serif;
   color: #383e56;
+  width: 600px;
+  height: 500px;
+  max-height: auto;
+  text-align: center;
+  border-radius: 2%;
   max-height: 20vh;
-  padding: 1%;
+  justify-self: center;
+  margin-top: -10%;
+  z-index: 10;
+  overflow: auto;
 }
 
 .uName {
-  padding-top: 10%;
+  padding-top: 12%;
   font-size: 40px;
   font-weight: 700;
 }
@@ -40,11 +47,4 @@
   font-size: 30px;
   font-weight: 400;
   opacity: 0.8;
-  padding-bottom: 10%;
-}
-
-.headerSet {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  max-height: 40%;
 }
