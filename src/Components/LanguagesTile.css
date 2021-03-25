@@ -6,13 +6,24 @@
 } */
 
 .languageTile {
+  display: flex;
   background-color: #9fb8ad;
+  min-height: 35vh;
+  height: 95%;
   width: 100%;
-  min-height: 10%;
   text-align: center;
   border-radius: 2%;
   box-shadow: 5px 5px 10px #869b92;
   font-family: Mulish, sans-serif;
   color: #383e56;
-  max-height: auto;
+  justify-self: center;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.chartTitle {
+  font-family: Mulish, sans-serif;
+  color: #383e56;
+  font-size: 25px;
+  padding: 5%;
 }

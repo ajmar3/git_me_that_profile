@@ -24,7 +24,8 @@ function ResultsPage(props) {
                 userName={userName}
             />
             <LanguagesTile 
-                repo_src={repo_src}
+                repo_src={`${repo_src}?per_page=100`}
+                userName={userName}
             />
         </div>
     );
