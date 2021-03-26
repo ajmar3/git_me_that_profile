@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@700&family=Share+Tech+Mono&display=swap");
+
 .socialsTile {
   background-color: #9fb8ad;
   height: 400px;
@@ -17,56 +20,89 @@
   color: #383e56;
   font-size: 25px;
   padding: 5%;
+  height: 15%;
 }
 .socialsList {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
   padding: 3%;
   column-gap: 2%;
+  height: 83%;
+  overflow: auto;
 }
 
 .followers {
   height: 90%;
   background-color: #a1cae2;
-  padding: 5%;
   box-shadow: 5px 5px 10px #869b92;
   border-radius: 2%;
   display: grid;
   grid-template-rows: 3fr 1fr;
   transition: 0.3s;
+  align-items: center;
 }
 .following {
   height: 90%;
   background-color: #a1cae2;
-  padding: 5%;
   box-shadow: 5px 5px 10px #869b92;
   border-radius: 2%;
   display: grid;
   grid-template-rows: 3fr 1fr;
   transition: 0.3s;
+  align-items: center;
 }
 
 .email {
   height: 90%;
   background-color: #a1cae2;
-  padding: 5%;
   box-shadow: 5px 5px 10px #869b92;
   border-radius: 2%;
   display: grid;
   grid-template-rows: 3fr 1fr;
   grid-column-start: 1;
   grid-column-end: 3;
+  align-items: center;
 }
 
 .location {
   height: 90%;
   background-color: #a1cae2;
-  padding: 5%;
   box-shadow: 5px 5px 10px #869b92;
   border-radius: 2%;
   display: grid;
   grid-template-rows: 3fr 1fr;
   grid-column-start: 1;
   grid-column-end: 3;
+  align-items: center;
+}
+
+.hireable {
+  height: 90%;
+  background-color: #a1cae2;
+  box-shadow: 5px 5px 10px #869b92;
+  border-radius: 2%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+}
+
+.tag {
+  font-family: Share Tech Mono, monospace;
+  color: #ececec;
+  padding-bottom: 2px;
+}
+
+.Value {
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .socialsTile {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 80%;
+  }
 }

@@ -78,3 +78,32 @@
   cursor: pointer;
   min-height: 42px;
 }
+
+@media (max-width: 800px) {
+  .searchBox {
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    width: 90%;
+    height: 60%;
+    max-height: auto;
+    top: 20%;
+  }
+
+  .header {
+    font-size: 40px;
+    padding-bottom: 10%;
+  }
+
+  .userInput {
+    width: 80%;
+    margin-left: 10%;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .go {
+    font-size: 35px;
+    margin-top: 15%;
+  }
+}

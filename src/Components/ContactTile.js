@@ -35,24 +35,24 @@ function ContactTile(props) {
             <div className="socialsTileTitle">{name}'s Social Stats</div>
             <div className="socialsList">
                 <div className="followers">
-                    <div className="followersValue">{followers}</div>
-                    <div className="followerstag">Followers</div>
+                    <div className="Value">{followers}</div>
+                    <div className="tag">Followers</div>
                 </div>
                 <div className="following">
-                    <div className="followingValue">{following}</div>
-                    <div className="followingtag">Following</div>
+                    <div className="Value">{following}</div>
+                    <div className="tag">Following</div>
                 </div>
                 <div className="email">
-                    <div className="emailValue">{email}</div>
-                    <div className="emailtag">Email</div>
+                    <div className="Value">{email}</div>
+                    <div className="tag">Email</div>
                 </div>
                 <div className="location">
-                    <div className="locationValue">{location}</div>
-                    <div className="locationtag">Location</div>
+                    <div className="Value">{location}</div>
+                    <div className="tag">Location</div>
                 </div>
                 <div className="hireable">
-                    <div className="hireableValue">{hireable}</div>
-                    <div className="hireabletag">Hireable?</div>
+                    <div className="Value">{hireable}</div>
+                    <div className="tag">Hireable?</div>
                 </div>
                 
             </div>

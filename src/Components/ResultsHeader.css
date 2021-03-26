@@ -48,3 +48,21 @@
   font-weight: 400;
   opacity: 0.8;
 }
+
+@media (max-width: 800px) {
+  .headerSet {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 80%;
+  }
+
+  .avatar {
+    width: 60%;
+    height: auto;
+  }
+
+  .name_bio {
+    width: 100%;
+    height: 100px;
+  }
+}

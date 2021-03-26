@@ -30,3 +30,12 @@
 .doughnut {
   justify-self: center;
 }
+
+@media (max-width: 800px) {
+  .languageTile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 1;
+    width: 80%;
+  }
+}

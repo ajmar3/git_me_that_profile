@@ -16,3 +16,11 @@
   padding: 5%;
   row-gap: 5px;
 }
+
+@media (max-width: 800px) {
+  .resultsPageTiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}

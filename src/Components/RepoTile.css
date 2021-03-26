@@ -78,3 +78,11 @@ a {
   padding-top: 15px;
   color: #383e56;
 }
+
+@media (max-width: 800px) {
+  .repoTile {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 80%;
+  }
+}
