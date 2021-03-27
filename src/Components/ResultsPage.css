@@ -1,8 +1,13 @@
 .resultsPage {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1500px;
+  max-height: 1200px;
+  padding: 1%;
+  align-self: center;
 }
 
 .resultsPageTiles {
@@ -18,20 +23,14 @@
 }
 
 @media (max-width: 800px) {
-
   .resultsPage {
-  }
-
-  .resultsPageTiles {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-self: center;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-    padding: 0;
+    row-gap: 5%;
+    justify-content: center;
+    width: 100vw;
     column-gap: 0;
-    
+    max-height: none;
   }
 }

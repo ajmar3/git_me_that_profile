@@ -104,5 +104,17 @@
     grid-row-start: 4;
     grid-row-end: 5;
     width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    max-height: none;
+  }
+
+  .socialsTileTitle {
+    height: 100%;
+  }
+
+  .socialsList {
+    height: 95%;
+    padding-bottom: 5%;
   }
 }

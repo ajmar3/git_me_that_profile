@@ -109,7 +109,7 @@ function LanguagesTile(props) {
                     <div className="chartTitle">Languages Used In <span>{props.userName}</span>'s Repositories</div>
                     <Doughnut className="graph" 
                     data={ChartData}
-                    options={{maintainAspectRatio: true}}
+                    options={{maintainAspectRatio: false}}
                     />
                 </div>   
             }

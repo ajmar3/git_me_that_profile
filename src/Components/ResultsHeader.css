@@ -53,18 +53,20 @@
   .headerSet {
     grid-row-start: 1;
     grid-row-end: 2;
-    width: 100%;
+    width: 80%;
+    justify-self: center;
     height: 100%;
+    max-height: none;
   }
 
   .avatar {
-    width: 60%;
-    height: auto;
+    width: 80%;
+    height: 100%;
   }
 
   .name_bio {
     width: 100%;
-    height: fit-content;
-    max-height: auto;
+    height: 100%;
+    max-height: none;
   }
 }

@@ -22,7 +22,7 @@ function ResultsPage(props) {
     
     return (
         <div className="resultsPage">
-            <div className="resultsPageTiles">
+
                 <ResultsHeader 
                     img_src={img_src}
                     bio={bio}
@@ -40,7 +40,7 @@ function ResultsPage(props) {
                     userData={userData}
                     
                 />
-            </div>    
+ 
         </div>
     );
 }
