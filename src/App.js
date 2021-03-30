@@ -18,7 +18,6 @@ function App() {
       const url = `https://api.github.com/users/${name1}`;
       const response = await fetch(url);
       const data = await response.json();
-      //const results = data.results[0]
       setSearchResults(data)
       setIsRequested(true)
     }
@@ -44,5 +43,4 @@ function App() {
 
 export default App;
 
-// searchResults={searchResults}
-// setSearchResults={setSearchResults}
+

@@ -15,7 +15,7 @@ function LanguagesTile(props) {
     //setting hooks
     const [repo_info, set_repo_info] = useState([])
     const[isfetching, setisfetching] = useState(true)
-    const[shouldBeRendered, setShouldBeRendered] = useState(true)
+    
 
     //getting data
     useEffect(() => {
